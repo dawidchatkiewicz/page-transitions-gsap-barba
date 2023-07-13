@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	background: linear-gradient(260deg, #b75d62, #754d4f);
+}
+
+.showcase {
+	display: flex;
+	position: absolute;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 15%;
+	overflow: visible;
+}
+
+nav {
+	min-height: 10vh;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem 15%;
+}
+
+.logo {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+nav img {
+	transform: scale(0.7);
+}
+
+.image-container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	height: 90vh;
+	z-index: 2;
+	flex: 1;
+}
+
+.image-container img {
+	width: 80%;
+}
+
+.showcase-text {
+	color: #fff;
+	flex: 1;
+	padding-bottom: 5rem;
+}
+
+.showcase-title {
+	font-size: 3.5rem;
+}
+.showcase-subtitle {
+	font-size: 1rem;
+	padding: 3rem 0;
+	font-weight: 400;
+}
+
+.showcase-btn {
+	padding: 0.5rem 2rem;
+	border: none;
+	color: black;
+	font-weight: 500;
+	font-family: 'Poppins', sans-serif;
+}
+
+.showcase-arrow {
+	position: absolute;
+	right: 15%;
+	bottom: 10%;
+}
+
+.circle {
+	position: absolute;
+}
+
+.circle-1 {
+	left: -3%;
+	bottom: -3%;
+	transform: scale(2);
+}
+
+.circle-2 {
+	left: 35%;
+	bottom: 10%;
+}
+
+.circle-3 {
+	left: 20%;
+	top: 15%;
+	transform: scale(1.5);
+}
+
+/* Product page */
+
+.product-section {
+	background: #fff;
+	min-height: 90vh;
+	position: absolute;
+	width: 100vw;
+	z-index: 5;
+}
+
+.product-description {
+	padding: 5% 15%;
+	color: #4b4b4b;
+}
+
+.product-description h2 {
+	font-size: 2rem;
+}
+
+.product-description p {
+	font-size: 1.2rem;
+	padding: 1rem 0rem;
+}
+
+.product-gallery {
+	display: grid;
+	padding: 0 15%;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 2rem;
+}
+
+.product-gallery, .product-img {
+	border-radius: 1rem;
+	width: 100%;
+}
+
+.price {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card {
+	padding: 2rem;
+}
